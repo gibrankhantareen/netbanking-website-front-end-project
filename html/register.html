@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GKTWEB Bank | Register With Us</title>
+</head>
+<link rel="stylesheet" href="css/gktkestyles.css">
+<link rel="stylesheet" href="font/calibirilight/stylesheet.css">
+<script src="js/gktkajs.js"></script>
+<link rel="icon" href="images/logofinal.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" href="font/calibirilight/stylesheet.css">
+<body>
+
+<!--Socialbar full ki coding-->
+<div class="socialbar">
+  <div class="container">
+    <div class="c1">
+      <a href="https://www.instagram.com/gibrankhantareen/"><img class="imgssocialbar" src="images/fb.png" height="26px" width="20px"></a>
+      <a href="https://www.instagram.com/gibrankhantareen/"><img class="imgssocialbar" src="images/insta.png" height="26px" width="20px"></a>
+      <a href="https://www.instagram.com/gibrankhantareen/"><img class="imgssocialbar" src="images/twitter.png" height="26px" width="20px"></a>
+      <p class="emailid">thgktweb9@gmail.com</p>
+      <img class="emailicon" src="images/emailicon.png" height="26px" width="20px">
+
+    </div>
+  </div>
+</div>
+<!--End-->
+
+
+
+<!--Menubar pure ki coding-->
+
+<div class="menubar">
+  <div class="container">
+    <div class="c3">
+      <img class="logowithbg" src="images/logofinal.png" height="62px" width="95px">
+    </div>
+
+
+    <div class="c4">
+      <ul type="none">
+        <li><a href="register.html">Register</a></li>
+        <li><a href="adminportal.html">Admin Portal</a></li>
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Transfer Money</a>
+            <div class="dropdown-content">
+                <a href="customertransaction.html">Customer Transaction</a>
+            <a href="tellertransaction.html">Teller Transaction</a>
+            </div>
+        </li>
+        
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Login</a>
+            <div class="dropdown-content">
+                <a href="customerlogin.html">Retail / Customer Login</a>
+                <a href="corporatelogin.html">Teller / Corporate Login</a>
+            </div>
+            <li><a href="cheque.html">Cheque Clearance</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+            <li><a href="home.html">Home</a></li>
+          </li>
+      </ul>
+
+    
+    </div>
+  </div>
+</div>
+<!--End-->
+
+<center>
+<img src="images/register.jpg" width="900px;" height="270px;">
+
+<br>
+<big><h1><em><i><u>Register With Us</u></i></em></h1></big>
+</center><br>
+<div class="nayeformkacontainer">
+<div class="container">
+<form action="/action_page.php">
+  <big><fieldset>
+    <legend><big><b><em>Enter your Details</em></big></b></legend>
+    <br><b>Full Name:</b><br>
+    <input type="text" name="fullname" placeholder="Enter your Full Name">
+    <br><br>
+    <b>Adhar Card Number:<br></b>
+    <input type="text" name="accountnumber" placeholder="Adhar Card Number" required>
+    <br><br>
+    <b>Address:<br></b>
+    <input type="text" name="accountnumber" placeholder="Address" required>
+    <br><br>
+    <label for="name"><b>Gender</b></label><br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other<br>
+    <br><br>
+
+    <label for="emailid"><b>Email</b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <br><br>
+    <label for="psw"><b>Choose aPassword</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br><br>
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <br>
+    <button type="submit" class="register2button" onclick="myFunction()">Register</button>
+      <script>
+        function myFunction() 
+        {
+          alert("Congratulations You Have Successfully registered!");
+        }
+      </script>
+
+
+  </fieldset></big>
+</form>
+</div>
+</div>
+
+
+ <style type="text/css">
+.register2button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 17px;
+  width: 260px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.admindelete2button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.admindelete2button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.admindeletebutton:hover span {
+  padding-right: 25px;
+}
+
+.admindeletebutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+</body>
+</html>

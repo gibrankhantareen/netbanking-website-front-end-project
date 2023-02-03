@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('Calibri-Light.woff2') format('woff2'),
+        url('Calibri-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+

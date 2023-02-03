@@ -1,0 +1,600 @@
+*{	margin: 0px;
+	padding: 0px;
+ }
+
+
+.clear{clear: both;}
+
+
+.container {
+	width: 1170px;
+	height:auto;
+	margin: 0 auto;
+	}
+
+
+
+/*Social Bar Styling starts*/
+.socialbar {
+	width: 100%;
+	height:50px;
+	background-color: #282a35;
+	}
+
+
+
+.socialbar .c1 {
+	width: 1170px ;
+	height:50px;
+	float: left;
+	}
+
+
+
+.imgssocialbar {
+	padding: 11px 9px;
+}
+
+
+
+.emailid {
+	font-family: 'Calibri';
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-top: 15px;
+    float: right;
+    margin-left: 3px;
+}
+
+
+
+.emailicon{
+	float: right;
+	margin-top: 13px;
+}
+/*end*/
+
+
+
+
+/*Dropdown Menu bar ke liye styling starts*/
+.menubar{
+	width: auto;
+	height: 84px;
+	font-family: 'Calibri';
+	background-color: #2e313d;
+}
+
+.menubar .c3 {
+	width: 500px ;
+	height:50px;
+	margin-left: 10px;
+	margin-right: 15px;
+	float: left;
+	}
+
+
+
+.logowithbg{
+	margin-top: 14px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+
+.menubar .c4 {
+	width: 770px ;
+	height:50px;
+	margin-top: -29px;
+	margin-left: 10px;
+	margin-right: 15px;
+	float: right;
+	}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Calibri';
+  overflow: hidden;
+  background-color: #2e313d;
+}
+
+li {
+  float: right;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  font-family: 'Calibri';
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  font-family: 'Calibri';
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  font-family: 'Calibri';
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px
+  font-family: 'Calibri';
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*end*/
+
+
+
+
+
+/*Marquee ke liye styling*/
+
+.marquecontainer{
+  width: 1170px;
+  height:45px;
+  margin: 0 auto;
+}
+
+.marquecontainer .row1 {
+  width: auto;
+  margin-left: 27px;
+  margin-top: -14px;
+  height:40px;
+  }
+
+
+.marquecontainer .row1 .c1 {
+  background-color: blue;
+  font-family: 'Calibri';
+  width: 100px;
+  height:30px;
+  box-shadow: 7px 7px 5px grey;
+  float: left;
+  }
+
+
+.marquecontainer .row1 .c2 .cc1 {
+  background-color: lightblue;
+  width: 1000px;
+  height:30px;
+  font-family: 'Calibri';
+  box-shadow: 7px 7px 5px grey;
+  float: left;
+  }
+
+/*End*/
+
+
+
+/*FOOTER ke liye styling*/
+
+.footercontainer{
+  width: auto;
+  height:45px;
+  margin: 0 auto;
+}
+
+
+#footer-wrap {
+  clear: both;
+  width: 100%;
+  font-size: 95%;
+  text-align: left;  
+  background: url(MarketPlace-images/footer-bottom.jpg) no-repeat center bottom;  
+}
+#footer-wrap a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+#footer-wrap a:hover {
+  color: yellow;  
+}
+#footer-wrap p {
+  padding: 10px 0;
+}
+#footer-wrap h2 {
+  color: #666666;
+  margin: 0;
+  padding: 0 10px; 
+}
+
+
+#footer {
+  clear: both;
+  color: #666;
+  font-family: 'Calibri';  
+  
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  background: green;
+  border-top: 1px solid #F2F2F2;  
+}
+/*End*/
+
+
+
+
+
+/*Contact us images-row ki styling*/
+.contimagcontainer{
+  width: auto;
+  height:45px;
+  margin: 0 auto;
+}
+
+
+.contimagcontainer .row1 {
+  width: 1000px;
+  height:100px;
+  }
+
+
+.contimagcontainer .row1 .c1 {
+  width: 720px;
+  height:280px;
+  float: left;
+  }
+
+.contactimg1{
+  height: 280px;
+  width: 710px;
+}
+
+
+.contactimg2{
+  height: 280px;
+  width: 270px;
+}
+
+
+.contimagcontainer .row1 .c2 {
+  width: 270px;
+  height:280px;
+  float: left;
+  }
+/*End*/
+
+
+
+
+
+
+/*Message container ke liye styling*/
+
+.messgcontainer{
+  width: auto;
+  height:100px;
+  margin: 0 auto;
+}
+
+
+.messgcontainer .row1 {
+  width: auto;
+  height:70px;
+  }
+
+
+.messgcontainer .row1 .c1 {
+  background-color: #f1f1f1;
+  margin-top: 19px;
+  margin-left: 92px;
+  font-family: 'Calibri';
+  width: 980px;
+  height:320px;
+  box-shadow: 7px 7px 5px grey;
+  float: left;
+  }
+
+
+.h1secur{
+  font-family: 'Calibri';
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.psecur{
+  font-family: 'Calibri';
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/*End*/
+
+
+
+
+/*Extra Content page sahi dikhane ke liye*/
+.extracont{
+  width: auto;
+  height:100px;
+  margin: 0 auto;
+}
+
+
+.extracont .row1 {
+  width: auto;
+  height:70px;
+  }
+
+
+.extracont .row1 .c1 {
+  background-color: white;
+  margin-top: 10px;
+  width: 980px;
+  height:50px;
+  float: left;
+  }
+/*End*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*_________________"MY PROFILE" PAGE KI STYLING KE PART________________*/
+.t1container {
+  height:auto;
+  margin: 0 auto;
+  }
+
+.fontheadingt{
+  font-family: 'Calibri';
+}
+
+
+.t1container .row1 {
+  width: 1000px;
+  height:100px;
+  }
+
+
+.t1container .row1 .c1 {
+
+  width: 400px;
+  margin-left: -140px;
+  height:100px;
+  float: left;
+  }
+
+.t1container .row1 .c2 {
+  width: 400px;
+  height:50px;
+  float: left;
+  margin-left: -60px;
+  }
+
+.t1container .row1 .c3 {
+  width: 400px;
+  margin-top: -50px;
+  height:50px;
+  margin-left: 275px;
+  float: left;
+ 
+  }
+
+.userimgt3{
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.t1container .row1 .c4 {
+  width: 100px;
+  margin-top: -50px;
+  height:50px;
+  margin-left: 640px;
+  float: left;
+ 
+  }
+
+
+
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 7px 7px 5px grey;
+  color: #4a4a4d;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+thead {
+  background: #395870;
+  background: linear-gradient(#49708f, #293f50);
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+th:first-child {
+  border-top-left-radius: 5px;
+  text-align: left;
+}
+th:last-child {
+  border-top-right-radius: 5px;
+}
+tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+.book-title {
+  color: #395870;
+  display: block;
+}
+.text-offset {
+  color: #7c7c80;
+  font-size: 12px;
+}
+.item-stock,
+.item-qty {
+  text-align: center;
+}
+.item-price {
+  text-align: right;
+}
+.item-multiple {
+  display: block;
+}
+tfoot {
+  text-align: right;
+}
+tfoot tr:last-child {
+  background: #f0f0f2;
+  color: #395870;
+  font-weight: bold;
+}
+tfoot tr:last-child td:first-child {
+  border-bottom-left-radius: 5px;
+}
+tfoot tr:last-child td:last-child {
+  border-bottom-right-radius: 5px;
+} 
+
+.helpmebutt{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top:200px;
+  margin-left:550px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.fonthelpme{
+  margin-top: 10px;
+  font-family: 'Calibri';
+}
+
+.helpmebutt:hover {background-color: #3e8e41}
+
+.helpmebutt:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}
+
+/*_______________________Profile Page ENDS___________________*/
+
+
+
+
+
+/*______________________Register with us ki editing starts___________________*/
+
+.formkibody {
+  font-family: 'Calibri';
+  background-color: black;
+  box-sizing: border-box
+}
+
+
+.formkacontainer {
+  padding: 16px;
+  background-color: white;
+  width: auto;
+  height:100px;
+  font-family: 'Calibri';
+  margin: 0 auto;
+}
+
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  font-family: 'Calibri';
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  font-family: 'Calibri';
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+________________________________________________
+
+.h1kestylingkeliye{
+  font-family: 'Calibri';
+  font-size: 20px;
+}
+
+
+
+.pkestylingkeliye{
+  font-family: 'Calibri';
+}
