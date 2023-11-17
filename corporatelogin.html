@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GKTWEB Bank Net Banking: Customer Login</title>
+  <title>GKTWEB Bank Net Banking: Corporate Login</title>
 </head>
-<link rel="stylesheet" href="css/customerloginkacss.css">
+<link rel="stylesheet" href="css/corporateloginkacss.css">
 <body>
 
 <center>
-<img src="images/logofinal.png">
+<img src="./images/logofinal.png">
 
-<h2>The GKTWEB Bank Retail/Customer E-banking Login</h2>
+<h2>The GKTWEB Bank Teller/Corporate E-banking Login</h2>
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 <div id="id01" class="modal">
-  
+
   <form class="modal-content animate" action="/action_page.php" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="images/usericon.png" alt="Avatar" class="avatar">
+      <img src="./images/usericon.png" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
-      <label for="uname"><b>Net-banking User-ID</b></label>
-      <input type="text" placeholder="Enter UserID" name="uname" required>
+      <label for="uname"><b>Net-banking Corporate ID</b></label>
+      <input type="text" placeholder="Enter Corporate-ID" name="uname" required>
 
       <label for="psw"><b>Netbanking Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
-        
+
       <button type="submit">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
